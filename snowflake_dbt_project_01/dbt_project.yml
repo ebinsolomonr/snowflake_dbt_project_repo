@@ -42,3 +42,6 @@ models:
     orderfact:
       +materialized: table
       +schema: L3_CONSUMPTION
+    product_category:
+      +materialized: table
+      +schema: L3_CONSUMPTION
