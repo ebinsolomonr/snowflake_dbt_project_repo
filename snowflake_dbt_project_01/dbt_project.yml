@@ -45,3 +45,6 @@ models:
     product_category:
       +materialized: table
       +schema: L3_CONSUMPTION
+    customer_classification:
+      +materialized: table
+      +schema: L3_CONSUMPTION
