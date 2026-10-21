@@ -1,9 +1,3 @@
-with customer_classification as (
-select
-    customerid,
-    revenue as total_spent
-from {{ref ('orderfact')}}
-)
 
 select 
     FO.customerid,
